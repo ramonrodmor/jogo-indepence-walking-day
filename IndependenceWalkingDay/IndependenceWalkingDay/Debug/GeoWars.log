@@ -1,0 +1,89 @@
+﻿Build started 20/04/2016 12:23:25.
+     1>Project "D:\OneDrive\UFERSA\@Antigas\Desenvolvimento de Jogos\TP3\GeoWars\GeoWars\GeoWars.vcxproj" on node 2 (Build target(s)).
+     1>FxCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\fxc.exe /nologo /E"main" /T ps_4_0_level_9_1 /Fo "D:\OneDrive\UFERSA\@Antigas\Desenvolvimento de Jogos\TP3\GeoWars\Debug\Pixel.cso" /Od /Zi Pixel.hlsl 
+         compilation object save succeeded; see D:\OneDrive\UFERSA\@Antigas\Desenvolvimento de Jogos\TP3\GeoWars\Debug\Pixel.cso
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\fxc.exe /nologo /E"main" /T vs_4_0_level_9_1 /Fo "D:\OneDrive\UFERSA\@Antigas\Desenvolvimento de Jogos\TP3\GeoWars\Debug\Vertex.cso" /Od /Zi Vertex.hlsl 
+         compilation object save succeeded; see D:\OneDrive\UFERSA\@Antigas\Desenvolvimento de Jogos\TP3\GeoWars\Debug\Vertex.cso
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Aleatorio.cpp Animation.cpp Audio.cpp Background.cpp Blue.cpp Engine.cpp Explosion.cpp Font.cpp Game.cpp Gameover.cpp Geometry.cpp GeometryWars.cpp Graphics.cpp Green.cpp Image.cpp Jogo.cpp Joystick.cpp Linear.cpp Magenta.cpp Menu.cpp Missile.cpp Object.cpp Particles.cpp Player.cpp Renderer.cpp Scene.cpp Sound.cpp Sprite.cpp Texture.cpp TileSet.cpp Timer.cpp Vector.cpp Window.cpp
+         Window.cpp
+         Vector.cpp
+         Timer.cpp
+         TileSet.cpp
+         Texture.cpp
+         Sprite.cpp
+         Sound.cpp
+         Scene.cpp
+         Renderer.cpp
+         Player.cpp
+     1>d:\onedrive\ufersa\@antigas\desenvolvimento de jogos\tp3\geowars\geowars\player.cpp(39): warning C4305: 'argument' : truncation from 'double' to 'float'
+         Particles.cpp
+         Object.cpp
+         Missile.cpp
+         Menu.cpp
+         Magenta.cpp
+         Linear.cpp
+         Joystick.cpp
+         Jogo.cpp
+         Image.cpp
+         Green.cpp
+         Generating Code...
+         Compiling...
+         Graphics.cpp
+         GeometryWars.cpp
+         Geometry.cpp
+         Gameover.cpp
+         Game.cpp
+         Font.cpp
+         Explosion.cpp
+         Engine.cpp
+         Blue.cpp
+         Background.cpp
+         Audio.cpp
+         Animation.cpp
+         Aleatorio.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /l"0x0409" /nologo /fo"Debug\Resources.res" Resources.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\OneDrive\UFERSA\@Antigas\Desenvolvimento de Jogos\TP3\GeoWars\Debug\GeoWars.exe" /INCREMENTAL /NOLOGO dxguid.lib d3d11.lib winmm.lib d3dcompiler.lib dinput8.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\OneDrive\UFERSA\@Antigas\Desenvolvimento de Jogos\TP3\GeoWars\Debug\GeoWars.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\OneDrive\UFERSA\@Antigas\Desenvolvimento de Jogos\TP3\GeoWars\Debug\GeoWars.lib" /MACHINE:X86 Debug\Resources.res
+         Debug\Aleatorio.obj
+         Debug\Animation.obj
+         Debug\Audio.obj
+         Debug\Background.obj
+         Debug\Blue.obj
+         Debug\Engine.obj
+         Debug\Explosion.obj
+         Debug\Font.obj
+         Debug\Game.obj
+         Debug\Gameover.obj
+         Debug\Geometry.obj
+         Debug\GeometryWars.obj
+         Debug\Graphics.obj
+         Debug\Green.obj
+         Debug\Image.obj
+         Debug\Jogo.obj
+         Debug\Joystick.obj
+         Debug\Linear.obj
+         Debug\Magenta.obj
+         Debug\Menu.obj
+         Debug\Missile.obj
+         Debug\Object.obj
+         Debug\Particles.obj
+         Debug\Player.obj
+         Debug\Renderer.obj
+         Debug\Scene.obj
+         Debug\Sound.obj
+         Debug\Sprite.obj
+         Debug\Texture.obj
+         Debug\TileSet.obj
+         Debug\Timer.obj
+         Debug\Vector.obj
+         Debug\Window.obj
+         GeoWars.vcxproj -> D:\OneDrive\UFERSA\@Antigas\Desenvolvimento de Jogos\TP3\GeoWars\Debug\GeoWars.exe
+     1>Done Building Project "D:\OneDrive\UFERSA\@Antigas\Desenvolvimento de Jogos\TP3\GeoWars\GeoWars\GeoWars.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:23.02
